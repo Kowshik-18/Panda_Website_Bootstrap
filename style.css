@@ -1,6 +1,16 @@
 /* Common Styles  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
 .image-slider {
   margin-top: 63px;
+}
+
+.margin-fix {
+  margin-bottom: 63px;
 }
 
 .orange-bg {
@@ -9,6 +19,10 @@
 }
 .carousel-item {
   padding: 20px 40px;
+}
+
+.main-section-color {
+  background-color: rgb(223, 221, 221);
 }
 
 .price {
@@ -21,4 +35,71 @@
   border-radius: 8px;
   padding: 9px 25px;
   cursor: pointer;
+}
+
+.buy-now-button01 {
+  background-color: rgba(0, 0, 0, 1);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 22px;
+  cursor: pointer;
+}
+
+.cat1,
+.cat2,
+.cat3 {
+  padding: 10px 30px;
+  border-radius: 20px;
+}
+
+.cat1 {
+  background-color: #ffb02a;
+}
+.cat2 {
+  background-color: #ff3e8a;
+}
+.cat3 {
+  background-color: #4157fc;
+}
+
+h3 {
+  font-weight: 500;
+  font-size: 40px;
+  color: white;
+}
+
+.card {
+  border-radius: 5% !important;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+#inputGroup-sizing-lg {
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: #fff;
+}
+
+#subscribe {
+  height: 400px;
+}
+
+.text-new {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+footer {
+  text-align: center;
 }
